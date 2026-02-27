@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Ankit Gumaste | RTL Design Engineer</title>
+  <meta name="description" content="Ankit Gumaste — RTL Design Engineer. FPGA + DSP implementation, VHDL/Verilog, Vivado, MATLAB/Octave." />
+
+  <meta property="og:title" content="Ankit Gumaste | RTL Design Engineer" />
+  <meta property="og:description" content="FPGA + DSP implementation • Reliable RTL • VHDL/Verilog" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+
+  <style>
+    body{font-family:"Space Grotesk", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial}
+    code, .mono{font-family:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+  </style>
+</head>
+
+<body>
+  <!-- Background layers -->
+  <div class="bg-media" aria-hidden="true"></div>
+  <div class="bg-noise" aria-hidden="true"></div>
+
+  <!-- Top navigation -->
+  <header class="navbar" id="top">
+    <div class="container navbar-inner">
+
+      <a class="profile" href="#top" aria-label="Home">
+        <span class="avatar">
+          <img src="images/profile_pic.jpeg" alt="Portrait of Ankit Gumaste" />
+        </span>
+        <span class="profile-text">
+          <span class="profile-name">Ankit Gumaste</span>
+          <span class="profile-role">RTL Design Engineer</span>
+        </span>
+      </a>
+
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a class="active" href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#publications">Publications</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <a class="sociallink linkedin" href="https://www.linkedin.com/in/ankitgumaste/" target="_blank" rel="noopener">
+          <span class="icon-pill" aria-hidden="true">
+            <svg class="icon-svg" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H7.351V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.368-1.85 3.601 0 4.264 2.37 4.264 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM6.814 20.452H3.86V9h2.954v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.727v20.545C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.273V1.727C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </span>
+          <span>LinkedIn</span>
+        </a>
+
+        <a class="sociallink github" href="https://github.com/AnkitGumaste" target="_blank" rel="noopener">
+          <span class="icon-pill" aria-hidden="true">
+            <svg class="icon-svg" viewBox="0 0 24 24">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </span>
+          <span>GitHub</span>
+        </a>
+
+        <button class="menu" type="button" aria-label="Open menu">
+          <i class="icon solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / About -->
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-grid">
+
+        <div class="hero-card reveal">
+          <div class="scanline" aria-hidden="true"></div>
+          <div class="hero-inner">
+            <div class="kicker"><span class="dot" aria-hidden="true"></span> About</div>
+            <h1 class="h-title">Building reliable RTL</h1>
+
+            <div class="about-text">
+              <p>
+                I’m Ankit Gumaste, an Electronics and Communication Engineer (B.Tech, 2024) currently working at Coreel Technologies since August 2024.
+                I work in the Digital Design and FPGA domain, focusing on designing and building reliable, efficient RTL architectures and implementing on FPGA-based systems.
+              </p>
+              <p>
+                My primary expertise is in RTL development using VHDL, with working knowledge of Verilog. I have hands-on experience developing and integrating multiple VHDL modules using Xilinx Vivado,
+                taking designs from specification through implementation and validation. My current work involves contributing to an Electronic Warfare (EW) system, where precision, performance, and robustness are critical.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="side reveal" aria-label="Profile">
+          <div class="side-inner">
+            <div class="portrait" style="margin-bottom:14px">
+              <img src="images/profile_pic.jpeg" alt="Portrait of Ankit Gumaste" />
+            </div>
+
+            <div class="quickgrid" aria-label="Quick facts">
+              <div class="qcard">
+                <div class="qk">Current Company</div>
+                <div class="qv">Coreel Technologies ( 1.5 yrs )</div>
+              </div>
+              <div class="qcard">
+                <div class="qk">Domain</div>
+                <div class="qv">Digital Design · FPGA · DSP</div>
+              </div>
+              <div class="qcard">
+                <div class="qk">Expertise</div>
+                <div class="qv">VHDL · TCL</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience" aria-label="Experience">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Experience</h2>
+            <p class="section-sub">What I’m building.</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="card reveal">
+            <div class="role">
+              <div>
+                <div class="where">RTL Design Engineer — <span style="color:rgba(255,255,255,.72)">Coreel Technologies</span></div>
+                <div class="when">Aug 2024 — Present</div>
+              </div>
+              <div class="pills" aria-label="Tags">
+                <span class="pill">EW Systems</span>
+                <span class="pill">RFSoC</span>
+                <span class="pill">RTL + DSP</span>
+              </div>
+            </div>
+
+            <ul class="bullets">
+              <li><b>RWJ (Receiver Warning Jammer):</b> Working on an EW receiver warning / jamming system.</li>
+              <li><b>Neural network on FPGA (RFSoC):</b> Implemented FPGA inference to recognize emitter/signal types: single tone, dual tone, up/down chirp, QPSK/BPSK, and complex spectrum.</li>
+              <li><b>RFPS (Radar Fingerprinting System):</b> Implemented radar fingerprinting algorithm in MATLAB/Octave for analysis and validation. Also Implemented several Blocks in RTL</li>
+              <li><b>Configurable waveform generation:</b> Built pulsed/CW waveform generation where each pulse is independently configurable (frequency, attenuation, pulse width, PRI).</li>
+            </ul>
+
+            <div class="pills" style="margin-top:12px">
+              <span class="pill">VHDL/Verilog</span>
+              <span class="pill">Vivado</span>
+              <span class="pill">MATLAB/Octave</span>
+              <span class="pill">Tcl</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills" aria-label="Skills">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Skills</h2>
+            <p class="section-sub">What I work with.</p>
+          </div>
+        </div>
+
+        <div class="grid three">
+          <div class="card reveal">
+            <h3>Core</h3>
+            <ul class="bullets">
+              <li>VHDL</li>
+              <li>Digital circuit design</li>
+              <li>Digital signal processing</li>
+              <li>Verilog</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Scripting</h3>
+            <ul class="bullets">
+              <li>Tcl</li>
+              <li>Basic Python</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Tools Used</h3>
+            <ul class="bullets">
+              <li>Xilinx Vivado</li>
+              <li>MATLAB/Octave</li>
+              <li>WaveVision</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects" aria-label="Projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Academic Projects</h2>
+            <p class="section-sub">Academic work.</p>
+          </div>
+        </div>
+
+        <div class="grid projects-grid">
+          <a class="pcard reveal" href="https://github.com/AnkitGumaste/AHB2APB-Bridge" target="_blank" rel="noopener">
+            <img class="pthumb" src="images/ahb2apb.png" alt="" aria-hidden="true" />
+            <div class="pmeta">
+              <div class="ptitle">AMBA AHB2APB Bridge</div>
+              <div class="pdesc">Design &amp; verification of a standard AMBA bridge.</div>
+              <div class="ptags"><span class="pill">RTL</span><span class="pill">Bus</span><span class="pill">Verification</span></div>
+            </div>
+            <span class="pgo" aria-hidden="true"><i class="icon solid fa-arrow-right"></i></span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/AnkitGumaste/RTL-to-GDSII" target="_blank" rel="noopener">
+            <img class="pthumb" src="images/rtl2gdsii.png" alt="" aria-hidden="true" />
+            <div class="pmeta">
+              <div class="ptitle">RTL to GDSII (Johnson Counter)</div>
+              <div class="pdesc">ASIC flow walkthrough from RTL to layout for a Johnson counter.</div>
+              <div class="ptags"><span class="pill">ASIC</span><span class="pill">Flow</span><span class="pill">Layout</span></div>
+            </div>
+            <span class="pgo" aria-hidden="true"><i class="icon solid fa-arrow-right"></i></span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/AnkitGumaste/JPEG_Compression" target="_blank" rel="noopener">
+            <img class="pthumb" src="images/lena.jpg" alt="" aria-hidden="true" />
+            <div class="pmeta">
+              <div class="ptitle">JPEG Compression (2D-DCT)</div>
+              <div class="pdesc">Image compression using 2D-DCT — frequency-domain pipeline.</div>
+              <div class="ptags"><span class="pill">DSP</span><span class="pill">DCT</span><span class="pill">Compression</span></div>
+            </div>
+            <span class="pgo" aria-hidden="true"><i class="icon solid fa-arrow-right"></i></span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/AnkitGumaste/Analog-Multiplier-Circuit" target="_blank" rel="noopener">
+            <img class="pthumb" src="images/analog_mult.png" alt="" aria-hidden="true" />
+            <div class="pmeta">
+              <div class="ptitle">Analog Multiplier Circuit</div>
+              <div class="pdesc">Op-amp based analog multiplier design.</div>
+              <div class="ptags"><span class="pill">Analog</span><span class="pill">Op-Amp</span></div>
+            </div>
+            <span class="pgo" aria-hidden="true"><i class="icon solid fa-arrow-right"></i></span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/AnkitGumaste/Huffman_Encoding" target="_blank" rel="noopener">
+            <img class="pthumb" src="images/huffman.png" alt="" aria-hidden="true" />
+            <div class="pmeta">
+              <div class="ptitle">Huffman Encoding</div>
+              <div class="pdesc">Lossless compression using Huffman coding.</div>
+              <div class="ptags"><span class="pill">Algorithms</span><span class="pill">Compression</span></div>
+            </div>
+            <span class="pgo" aria-hidden="true"><i class="icon solid fa-arrow-right"></i></span>
+          </a>
+
+          <a class="pcard reveal" href="https://github.com/AnkitGumaste/DITFFT_Matlab" target="_blank" rel="noopener">
+            <img class="pthumb" src="images/fft_8.png" alt="" aria-hidden="true" />
+            <div class="pmeta">
+              <div class="ptitle">DIT Radix-2 FFT</div>
+              <div class="pdesc">MATLAB implementation of radix-2 decimation-in-time FFT.</div>
+              <div class="ptags"><span class="pill">DSP</span><span class="pill">FFT</span><span class="pill">MATLAB</span></div>
+            </div>
+            <span class="pgo" aria-hidden="true"><i class="icon solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education" aria-label="Education">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Education</h2>
+            <p class="section-sub">Academic background.</p>
+          </div>
+        </div>
+
+        <div class="grid three">
+          <div class="card reveal">
+            <h3>Undergraduation</h3>
+            <p class="muted">
+              <b>Shri Dharmasthala Manjunatheshwara College of Engineering and Technology, Dharwad</b><br />
+              B.E in Electronics and Communication (2020-2024)<br />
+              CGPA: 9.49
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Pre-University</h3>
+            <p class="muted">
+              <b>FIITJEE Junior College, Narayanguda</b><br />
+              2018-2020<br />
+              90% (11<sup>th</sup> and 12<sup>th</sup>)
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Schooling</h3>
+            <p class="muted">
+              <b>S.R.Bommai Rotary Public school, Hubli</b><br />
+              91% (class 10<sup>th</sup>)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications" aria-label="Certifications">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-sub">Training &amp; credentials.</p>
+          </div>
+        </div>
+
+        <div class="grid two">
+          <div class="card reveal">
+            <h3>VHDL for an FPGA Engineer with Vivado Design Suite</h3>
+            <p class="muted">The course consisted Vivado Design Flow, Fundamentals of VHDL, Different modelling styles, FSM, Testbench and memories.</p>
+            <div class="pills"><span class="pill">ASIC flow</span><span class="pill">SoC basics</span></div>
+          </div>
+
+          <div class="card reveal">
+            <h3>VLSI Design</h3>
+            <p class="muted">The training consisted of introduction to VLSI, Verlog, Digital design concepts and FSM.</p>
+            <div class="pills"><span class="pill">CMOS</span><span class="pill">Verification</span></div>
+          </div>
+
+          <div class="card reveal">
+            <h3>VSD - Physical Design Flow</h3>
+            <p class="muted">The course covered basics Physical Design Flow</p>
+            <div class="pills"><span class="pill">Coming soon</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="section" id="publications" aria-label="Publications">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Publications</h2>
+            <p class="section-sub">Published work.</p>
+          </div>
+        </div>
+
+        <div class="card reveal pub-card">
+          <div class="pub-grid">
+            <div>
+              <h3 style="margin-top:0">Performance Analysis of 2D-DCT based JPEG Compression Algorithm</h3>
+              <div class="pub-venue">IEEE International Conference on Applied Intelligence and Sustainable Computing (ICAISC-2023)</div>
+
+              <details class="pub-abs">
+                <summary>Abstract</summary>
+                <p class="muted">
+                  Image Compression is an important process in digital image processing, allowing for the reduction of data size while maintaining image quality.
+                  The technique of Discrete Cosine Transform (DCT) is commonly employed in the compression of images, which involves transforming an image from the spatial domain to the frequency domain.
+                  Further, the image is quantized, and encoded. In this paper, the effectiveness of DCT for image compression is examined and the compressed image quality is analyzed using Peak Signal-to-Noise Ratio (PSNR)
+                  and Mean Squared Error (MSE) metrics. Results demonstrate that DCT is an effective method for image compression, providing high compression ratios while maintaining reasonable image quality.
+                  Using the algorithm discussed in this paper, for a Quality factor (Q-factor) of 50, a compression ratio of 26.42:1, PSNR of 31.95 dB, and MSE of 0.0007 was achieved.
+                  <br /><br />
+                  DOI: 10.1109/ICAISC58445.2023.10199973
+                </p>
+              </details>
+            </div>
+
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card reveal pub-card">
+          <div class="pub-grid">
+            <div>
+              <h3 style="margin-top:0">Low Power Design Techniques for 6T SRAM cell in 45nm Technology Node: A Comparitive Analysis</h3>
+              <div class="pub-venue">International Journal of Engineering Research and Applications</div>
+
+              <details class="pub-abs">
+                <summary>Abstract</summary>
+                <p class="muted">
+                  This paper explores various power reduction techniques, such as Sleep Transistors, Transistor Stacking, and 
+                  Forced Stack, to minimize power consumption in a 6T SRAM cell, a key component of chip architecture.
+                  The analysis, conducted at the 45nm technology node using Cadence Virtuoso, shows that MTCMOS 
+                  is the most effective technique, reducing power consumption from 1.462 µW to 6.55 pW, followed by 
+                  Gated VDD at 20.82 pW. Other techniques also demonstrated significant power savings, reducing power 
+                  from microwatts to nanowatts. These findings provide valuable insights for designing more energy-efficient 
+                  SRAM cells and enhancing overall chip efficiency.
+                </p>
+              </details>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section" id="achievements" aria-label="Achievements">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Achievements</h2>
+            <p class="section-sub">Highlights.</p>
+          </div>
+        </div>
+
+        <div class="grid two">
+          <div class="card reveal">
+            <h3>Academic Excellence</h3>
+            <p class="muted">Achieved CGPA of 9.49 in undergraduation.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Competitive Exams</h3>
+            <p class="muted">Secured good scores in school and pre-university academics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-label="Contact">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Contact</h2>
+            <p class="section-sub">Fastest way to reach me.</p>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card reveal">
+            <div class="kv">
+              <div class="k">Work email</div>
+              <div class="v"><a href="mailto:ankit.g@coreel.com">ankit.g@coreel.com</a></div>
+            </div>
+            <div class="kv">
+              <div class="k">Personal email</div>
+              <div class="v"><a href="mailto:ankitgumaste@gmail.com">ankitgumaste@gmail.com</a></div>
+            </div>
+            <div class="kv">
+              <div class="k">LinkedIn</div>
+              <div class="v"><a href="https://www.linkedin.com/in/ankitgumaste/" target="_blank" rel="noopener">/in/ankitgumaste</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container">
+        <div class="line"></div>
+        <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+          <div>© <span id="y"></span> Ankit Gumaste</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" aria-hidden="true">
+    <div class="drawer-panel" role="dialog" aria-label="Menu">
+      <div class="drawer-top">
+        <div style="display:flex; align-items:center; gap:10px">
+          <span class="brand-badge" aria-hidden="true" style="width:34px; height:34px; border-radius:12px"></span>
+          <div>
+            <div style="font-weight:750">Menu</div>
+            <div style="font-size:12px; color:rgba(255,255,255,.62)">Navigate sections</div>
+          </div>
+        </div>
+        <button class="drawer-x" type="button" aria-label="Close menu"><i class="icon solid fa-times" aria-hidden="true"></i></button>
+      </div>
+
+      <a data-spy href="#experience">Experience</a>
+      <a data-spy href="#skills">Skills</a>
+      <a data-spy href="#projects">Projects</a>
+      <a data-spy href="#education">Education</a>
+      <a data-spy href="#certifications">Certifications</a>
+      <a data-spy href="#publications">Publications</a>
+      <a data-spy href="#achievements">Achievements</a>
+      <a data-spy href="#contact">Contact</a>
+
+      <div style="display:flex; gap:10px; padding:10px 6px 2px">
+        <a class="btn" href="https://www.linkedin.com/in/ankitgumaste/" target="_blank" rel="noopener" style="flex:1; justify-content:center">
+          <svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H7.351V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.368-1.85 3.601 0 4.264 2.37 4.264 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM6.814 20.452H3.86V9h2.954v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.727v20.545C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.273V1.727C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a class="btn primary" href="https://github.com/AnkitGumaste" target="_blank" rel="noopener" style="flex:1; justify-content:center">
+          <svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/site.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
